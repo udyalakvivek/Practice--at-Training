@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Peyment Method </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <h3>Billing Address</h3>
+            <form action="data.html" method="post">
+                <label for="" class="label">Full Name</label><br>
+                <input type="text" placeholder="Enter Your Name..." class="Input" autofocus><br>
+                <label for="" class="label">E-Mail</label><br>
+                <input type="email" placeholder="Enter Your Email..." class="Input"><br>
+                <label for="" class="label">Address</label><br>
+                <input type="text" placeholder="Enter Your Address..." class="Input"><br>
+                <label for="" class="label">City</label><br>
+                <input type="text" placeholder="Enter Your City..." class="Input"><br>
+                <div id="zip">
+                    <label for="" class="label">Sate</label>
+                    <select class="State" name="state">
+                        <option value="">choose Your State</option>
+                        <option value="" >Uttar-pradesh</option>
+                        <option value="">Madhya-pradesh</option>
+                        <option value="">Gujrat</option>
+                        <option value="">Tamil-nadu</option>
+                        <option value="">Karnatak</option>
+                    </select>
+                    <label for="" class="label">Zip Code</label>
+                    <input type="number" placeholder="Enter Zip Code..." class="State" >
+                </div>
+            </form>
+        </div>
+        <div class="right">
+            <h3> Peyment Details </h3>
+            <form action="data.html" method="post">
+                <!-- <label for="">Accepted Cards</label> -->
+                <p>Accepted Cards</p>
+                <img src="rupay.png" alt="Rupay cards" class="card">
+                <img src="master.jpeg" alt="master cards " class="card">
+                <img src="visa2.jpeg" alt="visa cards" class="card"><br>
+                <label for="" class="label"> card Number</label><br>
+                <input type="text" placeholder="Enter card number" class="Input" ><br>
+                <label for="" class="label"> Exp month</label><br>
+                <input type="text" placeholder="Enter Exp month" class="Input"><br>
+                <div>
+                    <label for="" class="label">Exp Year</label>
+                    <select name="" class="State">Year
+                        <option value="">2020</option>
+                        <option value="">2021</option>
+                        <option value="" >2023</option>
+                        <option value="">2024</option>
+                        <option value="">2025</option>
+                        <option value="">2026</option>
+                        <option value="">2027</option>
+                        <option value="">2028</option>
+                        <option value="">2029</option>
+                        <option value="">2030</option>
+                        <option value="">2031</option>
+                        <option value="">2032</option>
+                        <option value="">2033</option>
+                        <option value="">2034</option>
+                        <option value="">2035</option>
+                    </select>
+                    <label for="" class="label">CVV</label>
+                    <input type="text" placeholder="CVV" class="State">
+                </div>
+                <input type="submit" value="Proceed To Pay" class="submit">
+            </form>
+        </div>
+    </div>
+    </body>
+
+</html>

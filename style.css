@@ -1,0 +1,135 @@
+/* .container{
+    background-color: white;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-top: 8%;
+    /* margin-bottom: 15%; 
+}
+
+ .left{
+   
+    background-color: red;
+} */
+
+
+/* Styling for the container */
+body{
+    background-color: #7c00ff;
+}
+.container {
+    display: flex;
+    /* background-color: white; */
+    margin-top: 7%;
+    margin-right: 15%;
+    /* margin-bottom: 15%; */
+    margin-left: 15%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; /* Optional: Add padding inside the container */
+}
+
+/* Styling for the left class */
+.left {
+    background-color: white; /* Light grey background */
+    float: left;
+    width: 45%; /* Adjust the width to leave space for margin and padding */
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; /* Optional: Add padding inside the left div */
+}
+
+/* Styling for the right class */
+.right {
+    background-color: white; /* Lighter grey background */
+    float: right;
+    width: 45%; /* Adjust the width to leave space for margin and padding */
+    padding: 20px; /* Optional: Add padding inside the right div */
+}
+.label{
+    font-size: 1.1rem;
+    margin-left: 1%;
+    
+}
+.Input{
+    width: 80%; 
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 18px;
+    margin: 1%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.State{
+    width: 26%;
+    margin-left: 1%;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 18px;
+    margin: 1%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+ .left h3{
+    font-size: 1.5rem;
+    /* margin-inline-start: -16px; */
+    margin-left: -16px;
+ }
+ .right h3{
+    font-size: 1.5rem;
+    margin-left: -16px;
+ }
+ .right p{
+    font-size: 1.1rem;
+ }
+ .card{
+   
+    margin-bottom: 12px;
+    width: 15%;
+
+ }
+ .submit{
+    background-color: #7c00ff;
+    color: white;
+    width: 96%;
+    padding-top: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    margin: -1%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 1.1rem;    
+ }
+ /* Keyframes for the animation
+@keyframes buttonClick {
+    0% {
+        transform: scale(1);
+        background-color: #007bff; /* Initial button color */
+    }
+    50% {
+        transform: scale(1.1);
+        background-color: #0056b3; /* Color change during animation */
+    }
+    100% {
+        transform: scale(1);
+        background-color: #007bff; /* Return to original color 
+    }
+} */
+
+/* Styling for the button */
+/* input[type="submit"] {
+    /* Your existing styles for the button */
+
+    /* Additional styles for animation and color change */
+    transition: background-color 0.3s ease-in-out;
+    animation: buttonClick 0.5s ease-in-out;
+}
+
+/* Define the animation on button click */
+input[type="submit"]:active {
+    animation-name: buttonClick;
+} */
